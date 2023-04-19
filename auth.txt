@@ -1,0 +1,8 @@
+curl --location 'https://auth.workid.global/api/token' \
+--header 'x-api-key: {api-key} ' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "operation":"get-api-token",
+    "username": "your username",
+    "password": "your password"
+}'
